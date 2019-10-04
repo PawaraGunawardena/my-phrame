@@ -6,7 +6,6 @@
  * Time: 12:46 PM
  */
 
-
 class Home extends Controller{
     function __construct(){
         parent::__construct();
