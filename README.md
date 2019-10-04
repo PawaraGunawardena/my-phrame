@@ -8,7 +8,7 @@
 #### Setup you own servers for PHP and MySQL
 * You can use WAMP, XAMPP or any compatible servers for PHP and MYSQL.
 * Here describes assuming completed the WAMP server configurations. 
-* Move to the www directory for the WAMP server.
+* Move to the www directory of the WAMP server.
 
 #### Clone
 * Clone the source code in to the www directory 
@@ -17,7 +17,7 @@
     
 #### Reconfigure
 * Change the URL defined in config.php file if needed
-* Change DB_HOST, DB_NAME, DB_USER, DB_PASS relevant to yours. 
+* Change DB_HOST, DB_NAME, DB_USER, DB_PASS in config.php relevant to yours. 
 
 #### User table 
 * To use the user registration and user login functionalities which already implemented, create relevant database from the name configured as DB_NAME in config.php, then create the table named 'user' using the following MySQL query. 
