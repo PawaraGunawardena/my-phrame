@@ -5,10 +5,10 @@
  * Date: 10/4/2019
  * Time: 11:24 AM
  */
-
 ?>
 
 <!doctype html>
+
 
 <body class="text-center">
 echo '<div style="padding: 300px; ">';
