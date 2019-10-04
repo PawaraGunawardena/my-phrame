@@ -20,7 +20,7 @@
 * Change DB_HOST, DB_NAME, DB_USER, DB_PASS in config.php relevant to yours. 
 
 #### User table 
-* To use the user registration and user login functionalities which already implemented, create relevant database from the name configured as DB_NAME in config.php, then create the table named 'user' using the following MySQL query. 
-(Can replace the database name 'myphrame' from your own database name.)
+* To use the user registration and user login functionalities which already implemented, create the database relevant to the name configured as DB_NAME in config.php.
+* Create the table named 'user' using the following MySQL query. Need to replace the database name 'myphrame' from your own database name.
 
         CREATE TABLE `myphrame`.`user` ( `user_id` INT NOT NULL AUTO_INCREMENT , `username` VARCHAR(12) NOT NULL , `email` VARCHAR(32) NOT NULL , `password` VARCHAR(32) NOT NULL , PRIMARY KEY (`user_id`), UNIQUE (`username`), UNIQUE (`email`));
