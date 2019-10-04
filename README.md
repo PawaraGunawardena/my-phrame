@@ -12,7 +12,8 @@
 
 ##### Clone
 * Clone the source code in to the www directory 
-    git clone https://github.com/PawaraGunawardena/myphrame.git
+
+        git clone https://github.com/PawaraGunawardena/myphrame.git
     
 #### Re configure
 * Change the URL defined in config.php file if needed
@@ -22,4 +23,4 @@
 * To use the user registration and user login functionalities which already implemented, create relevant in 'myphrame' database, then create the table named 'user' using the following MySQL query. 
 (Can replace the database name 'myphrame' from your own database name.)
 
-    CREATE TABLE `myphrame`.`user` ( `user_id` INT NOT NULL AUTO_INCREMENT , `username` VARCHAR(12) NOT NULL , `email` VARCHAR(32) NOT NULL , `password` VARCHAR(32) NOT NULL , PRIMARY KEY (`user_id`), UNIQUE (`username`), UNIQUE (`email`));
+        CREATE TABLE `myphrame`.`user` ( `user_id` INT NOT NULL AUTO_INCREMENT , `username` VARCHAR(12) NOT NULL , `email` VARCHAR(32) NOT NULL , `password` VARCHAR(32) NOT NULL , PRIMARY KEY (`user_id`), UNIQUE (`username`), UNIQUE (`email`));
