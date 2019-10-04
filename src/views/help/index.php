@@ -14,7 +14,7 @@ echo '<div style="padding: 300px; ">';
 
 
         <main role="main" class="inner cover">
-            <h1 class="cover-heading">My PHrame</h1>
+            <h1 class="cover-heading">My PHrame: Home</h1>
             <p class="lead">        My PHrame is an freely available open source web development frame work with a low amount of code base.
                 This can directly use with acdemic projects to learn the middlewares of Model-View-Controller architecture.
                 Business applications can develop on top of this, after adding your own additional patches.
