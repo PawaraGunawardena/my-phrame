@@ -53,7 +53,7 @@
 <?php } ?>
 
 <?php if (Session::get('loggedIn') == true) {?>
-    <a href="index" class="btn btn-dark" role="button">MyPHrame</a>
+    <a href="index" class="btn btn-dark" role="button">Home</a>
     <a href="<?php echo URL; ?>home/logout" class="btn btn-dark" role="button">Logout</a>
 
 <?php } ?>
