@@ -10,7 +10,7 @@
 //change the values relevant to the setup you need
 
 // Always provide a TRAILING SLASH (/) AFTER A PATH
-define('URL', 'http://localhost/Test/myphrame/src/');
+define('URL', 'http://localhost/my-phrame/src/');
 
 define('DB_TYPE','mysql');
 define('DB_HOST','localhost');
